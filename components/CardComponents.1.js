@@ -9,7 +9,7 @@ export const CardComponent = (product) => {
     <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
         <img class="p-8 rounded-t-lg h-[200px] w-auto object-cover" src="${
-          image || "No Image"
+          image || "../assets/placeholder.jpg"
         }" alt="product image" />
       </a>
       <div class="px-5 pb-5">
